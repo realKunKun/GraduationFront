@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "esnext",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
-    "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -12,6 +11,8 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "sourceMap": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "baseUrl": ".",
     "types": [
       "webpack-env"

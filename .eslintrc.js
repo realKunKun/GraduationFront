@@ -13,6 +13,10 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'vue/multi-word-component-names': 0,
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    'no-undef': 0
   }
 }
